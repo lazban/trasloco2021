@@ -26,10 +26,10 @@ params:
     defaultTheme: auto # dark, light
     disableThemeToggle: false
 
-    ShowReadingTime: true
-    ShowShareButtons: true
-    ShowPostNavLinks: true
-    ShowBreadCrumbs: true
+    ShowReadingTime: false
+    ShowShareButtons: false
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
     ShowCodeCopyButtons: false
     disableSpecial1stPost: false
     disableScrollToTop: false
@@ -71,11 +71,14 @@ params:
     # home-info mode
     homeInfoParams:
         Title: "Ciao!"
-        Content:
+        Content: "sto organizzando il mio trasloco e devo disfarmi di un po' di cose. Se qualcosa ti interessa scrivimi via email o telegram usando i link qui sotto!"
 
     socialIcons:
-        - name:
-          url: ""
+        - name: email
+          url: "mailto:trasloco21@gmail.com"
+        - name: telegram
+          url: "https://t.me/alstov"
+
 
     analytics:
         google:
@@ -90,10 +93,10 @@ params:
         hiddenInList: true # hide on list pages and home
         hiddenInSingle: true # hide on single page
 
-    editPost:
-        URL: "https://github.com/<path_to_repo>/content"
-        Text: "Suggest Changes" # edit text
-        appendFilePath: true # to append file path to Edit link
+    # editPost:
+    #    URL: "https://github.com/<path_to_repo>/content"
+    #    Text: "Suggest Changes" # edit text
+    #    appendFilePath: true # to append file path to Edit link
 
     # for search
     # https://fusejs.io/api/options.html
@@ -105,12 +108,12 @@ params:
         threshold: 0.4
         minMatchCharLength: 0
         keys: ["title", "permalink", "summary", "content"]
-menu:
-    main:
-        - identifier: categories
-          name: categories
-          url: /categories/
-          weight: 10
+#menu:
+#    main:
+#        - identifier: categories
+#          name: categories
+#          url: /categories/
+#          weight: 10
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true

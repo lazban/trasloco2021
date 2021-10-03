@@ -1,6 +1,6 @@
 ---
-title: "Set per fonduta"
-slug: "fonduta"
+title: "Ricette per barbecue"
+slug: "weber"
 description: ""
 draft: false
 date: 2021-10-03T06:00:00+01:00
@@ -17,7 +17,7 @@ disableHLJS: true # to disable highlightjs
 disableShare: false
 searchHidden: false
 cover:
-    image: "/immagini/fonduta.jpeg" # image path/url
+    image: "/immagini/weber.jpeg" # image path/url
     alt: "" # alt text
     caption: "" # display caption under cover
     relative: false # when using page bundles set this to true
@@ -25,6 +25,8 @@ cover:
 ---
 
 
-Regalo set per 4 per fonduta. praticamente nuovo!
+Regalo un bel librone in inglese con ricette per barbecue.
+
+<!-- {{< figure src="/immagini/terrazzi2.jpeg" >}} -->
 
 Se ti interessa, scrivimi via [email](mailto:trasloco21@gmail.com) o via [telegram](https://t.me/alstov).

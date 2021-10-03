@@ -71,7 +71,7 @@ params:
     # home-info mode
     homeInfoParams:
         Title: "Ciao!"
-        Content: "sto organizzando il mio trasloco e devo disfarmi di un po' di cose. Se qualcosa ti interessa scrivimi via email o telegram usando i link qui sotto!"
+        Content: "sto organizzando il mio trasloco e devo disfarmi di un po' di cose. Son tutte cose in ottimo stato. Se qualcosa ti interessa scrivimi via email o telegram usando i link qui sotto!"
 
     socialIcons:
         - name: email
